@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const editProfile = async (req, res) => {
   const { id } = req.params;
-  // console.log('User ID:', id);
+  console.log('User ID:', id);
 
   // Parse id to integer
   const userId = parseInt(id);
